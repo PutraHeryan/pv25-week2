@@ -34,7 +34,7 @@ class RegistrationUI(QWidget):
         gender_layout.addWidget(self.female_radio)
         
         self.country_combo = QComboBox()
-        self.country_combo.addItems(["Select Country", "USA", "UK", "Indonesia", "India"])
+        self.country_combo.addItems(["Select Country", "Canada", "America", "Indonesia", "Malaysia"])
         
         form_layout.addRow("Full Name:", self.full_name)
         form_layout.addRow("Email:", self.email)
